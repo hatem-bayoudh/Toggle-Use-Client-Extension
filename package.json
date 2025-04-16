@@ -4,7 +4,7 @@
   "publisher": "HatemBayoudh",
   "description": "An extension to toggle use client at the beginning of your file.",
   "icon": "images/logo.png",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/hatem-bayoudh/Toggle-Use-Client-Extension.git"
@@ -18,21 +18,21 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
-      "commands": [
-        {
-          "command": "toggleuseclient.toggleUseClient",
-          "title": "Use Client: Toggle"
-        },
-        {
-          "command": "toggleuseclient.addUseClient",
-          "title": "Use Client: Add"
-        },
-        {
-          "command": "toggleuseclient.removeUseClient",
-          "title": "Use Client: Remove"
-        }
-      ]
-    },
+    "commands": [
+      {
+        "command": "toggleuseclient.toggleUseClient",
+        "title": "Use Client: Toggle"
+      },
+      {
+        "command": "toggleuseclient.addUseClient",
+        "title": "Use Client: Add"
+      },
+      {
+        "command": "toggleuseclient.removeUseClient",
+        "title": "Use Client: Remove"
+      }
+    ]
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
