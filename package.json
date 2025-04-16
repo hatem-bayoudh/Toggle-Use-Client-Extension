@@ -3,6 +3,7 @@
   "displayName": "Toggle Use Client",
   "publisher": "HatemBayoudh",
   "description": "An extension to toggle use client at the beginning of your file.",
+  "icon": "images/logo.png",
   "version": "0.0.1",
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   "main": "./out/extension.js",
   "contributes": {
       "commands": [
-         {
+        {
           "command": "toggleuseclient.toggleUseClient",
           "title": "Use Client: Toggle"
         },
